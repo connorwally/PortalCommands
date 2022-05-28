@@ -1,0 +1,12 @@
+name: PortalCommands
+version: '${project.version}'
+main: me.wally.portalcommands.PortalCommands
+api-version: 1.18
+prefix: PortalCommands
+authors: [ Wally ]
+description: Replace using portals with using commands
+commands:
+  portalcommands:
+    Usage: /portalcommands reload
+    Description: Reloads the portalcommands plugin
+

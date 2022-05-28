@@ -1,0 +1,31 @@
+#End portal related settings
+end:
+  #If the plugin is enabled for the end portal
+  enabled: true
+  #Blocks the portal from teleporting the player
+  block-use: true
+  #Commands to run when a player enters an end portal
+  commands:
+    #- gamemode creative
+  #Commands to run from console
+  commands-console:
+    #- time set night
+  #Messages to send to a player entering the portal
+  messages:
+    #- "&a&lYou have been put in creative mode"
+
+#Nether portal related settings
+nether:
+  #If the plugin is enabled for the nether portal
+  enabled: true
+  #Blocks the portal from teleporting the player
+  block-use: true
+  #Commands to run when a player enters a nether portal
+  commands:
+    #- gamemode creative
+  #Commands to run from console
+  commands-console:
+    #- time set night
+  #Messages to send player when using nether portal
+  messages:
+    #- "&a&lYou have been put in creative mode"
